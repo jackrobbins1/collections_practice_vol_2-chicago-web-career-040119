@@ -63,6 +63,10 @@ end
 def count_elements(array)
   new_array = []
   array.each {|el|
+    if new_array == []
+      new_array << {el.keys => el.values}
+
+    end
     binding.pry
   }
 end

@@ -32,3 +32,19 @@ def contain_a(array)
 end
 
 contain_a(["earth", "fire", "wind", "water", "heart"])
+
+def first_wa(array)
+  new_array = []
+  array.each { |el|
+    zplit = el.split("")
+    zplit.each {|letter|
+      if letter == "a"
+        new_array << el
+      else
+        next
+      end
+    }
+  }
+  puts new_array
+  new_array
+end

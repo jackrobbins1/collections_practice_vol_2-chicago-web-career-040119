@@ -4,7 +4,7 @@ def begins_with_r(array)
   yea_o_nea = true
   array.each { |el|
     zplit = el.split("")
-    if zplit[0] == "r"
+    if zplit[0] != "r"
       puts false
       return false
     else

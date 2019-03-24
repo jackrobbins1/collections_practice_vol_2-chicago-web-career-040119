@@ -57,6 +57,7 @@ def remove_non_strings(array)
       next
     end
   }
+  new_array
 end
 
-remove_non_strings([1, 3])
+remove_non_strings(["blake", 1, :hello])

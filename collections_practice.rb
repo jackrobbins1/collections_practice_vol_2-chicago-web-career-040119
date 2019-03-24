@@ -73,9 +73,11 @@ def count_elements(array)
         if nel.values[0] == el.values[0]
           nel[:count] += 1
           #next
-        else
+        elsif nel.values[0] != el.values[0]
           new_array << {el.keys[0] => el.values[0], :count => 1}
           #next
+        else
+          next
         end
       }
     end

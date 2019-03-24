@@ -19,3 +19,5 @@ end
 def contain_a(array)
   
 end
+
+contain(["earth", "fire", "wind", "water", "heart"])

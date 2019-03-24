@@ -27,6 +27,7 @@ def contain_a(array)
       end
     }
   }
+  puts new_array
   new_array
 end
 

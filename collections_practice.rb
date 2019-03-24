@@ -47,5 +47,5 @@ end
 #first_wa(["candy", :pepper, "wall", :ball, "wacky"])
 
 testing = :datest
-#puts testing.to_s
+puts testing.to_s
 puts testing.to_sym

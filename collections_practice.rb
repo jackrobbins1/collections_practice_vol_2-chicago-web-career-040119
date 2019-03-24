@@ -15,3 +15,7 @@ def begins_with_r(array)
   puts yea_o_nea
   yea_o_nea
 end
+
+def contain_a(array)
+
+end

@@ -6,3 +6,5 @@ def begins_with_r(array)
     binding.pry
   }
 end
+
+begins_with_r(["ruby", "rspec", "rails"])

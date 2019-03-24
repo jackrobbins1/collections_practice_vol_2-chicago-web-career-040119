@@ -50,4 +50,7 @@ end
 
 def remove_non_strings(array)
   new_array
+  binding.pry
 end
+
+remove_non_strings([1, 3])

@@ -69,11 +69,11 @@ def count_elements(array)
       new_array.each {|nel|
         if nel.keys == el.keys
           nel[:count] += 1
-        elsif
+        else
+          new_array << {el.keys => el.values, :count => 1}
         end
       }
     end
-    binding.pry
   }
 end
 

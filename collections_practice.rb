@@ -17,7 +17,7 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  
+
 end
 
 contain(["earth", "fire", "wind", "water", "heart"])

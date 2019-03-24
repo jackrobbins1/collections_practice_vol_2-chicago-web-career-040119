@@ -67,8 +67,8 @@ def count_elements(array)
       new_array << {el.keys => el.values, :count => 1}
     else
       new_array.each {|nel|
-        if nel.keys = el
-
+        if nel.keys == el.keys
+          nel[:count] += 1
         end
       }
     end

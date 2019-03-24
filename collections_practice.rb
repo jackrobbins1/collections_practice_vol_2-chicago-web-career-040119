@@ -33,13 +33,17 @@ end
 
 def first_wa(array)
   array.each { |el|
-    zplit = el.split("")
-    two_letters = zplit[0] + zplit[1]
-    if two_letters == "wa"
-      puts el
-      return el
-    else
+    if el == el.to_sym
       next
+    else
+      zplit = el.split("")
+      two_letters = zplit[0] + zplit[1]
+      if two_letters == "wa"
+        puts el
+        return el
+      else
+        next
+      end
     end
   }
 end
@@ -49,4 +53,3 @@ end
 testing = :datest
 puts testing.to_s
 puts testing.to_sym
-binding.pry

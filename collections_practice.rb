@@ -75,6 +75,7 @@ def count_elements(array)
       }
     end
   }
+  binding.pry
 end
 
 count_elements([{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}])

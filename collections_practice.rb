@@ -62,7 +62,7 @@ end
 
 def count_elements(array)
   new_array = []
-  array.each {|el, key|
+  array.each {|el|
     binding.pry
   }
 end

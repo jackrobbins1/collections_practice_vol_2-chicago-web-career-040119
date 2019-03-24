@@ -87,7 +87,7 @@ def count_elements(array)
   new_array
 end
 
-let(:keys) {
+keyz = {
   [
       {
           :first_name => "blake",

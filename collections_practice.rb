@@ -46,3 +46,5 @@ def first_wa(array)
   puts new_array
   new_array
 end
+
+first_wa(["candy", :pepper, "wall", :ball, "wacky"])

@@ -10,7 +10,6 @@ def begins_with_r(array)
     else
       next
     end
-    binding.pry
   }
   puts yea_o_nea
   yea_o_nea
@@ -18,6 +17,10 @@ end
 
 def contain_a(array)
   new_array = []
+  array.each { |el|
+    zplit = el.split("")
+
+  }
 end
 
 contain(["earth", "fire", "wind", "water", "heart"])

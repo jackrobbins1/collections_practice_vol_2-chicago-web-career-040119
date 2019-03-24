@@ -19,7 +19,13 @@ def contain_a(array)
   new_array = []
   array.each { |el|
     zplit = el.split("")
-
+    zplit.each {|letter|
+      if letter == "a"
+        new_array << el
+      else
+        next
+      end
+    }
   }
 end
 

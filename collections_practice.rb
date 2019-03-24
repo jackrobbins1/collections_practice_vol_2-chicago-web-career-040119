@@ -36,13 +36,11 @@ def first_wa(array)
   array.each { |el|
     zplit = el.split("")
     two_letters = zplit[0] + zplit[1]
-    zplit.each {|letter|
-      if letter == "a"
-        new_array << el
-      else
-        next
-      end
-    }
+    if two_letters == "wa"
+      return el
+    else
+      next
+    end
   }
   puts new_array
   new_array

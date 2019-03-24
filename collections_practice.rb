@@ -5,6 +5,7 @@ def begins_with_r(array)
   array.each { |el|
     zplit = el.split("")
     if zplit[0] == "r"
+      puts false
       return false
     else
       next

@@ -62,6 +62,7 @@ end
 
 def count_elements(array)
   new_array = []
+  array.each {|el, key|}
 end
 
 count_elements([{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}])

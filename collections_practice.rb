@@ -48,8 +48,5 @@ def first_wa(array)
   }
 end
 
-#first_wa(["candy", :pepper, "wall", :ball, "wacky"])
+first_wa(["candy", :pepper, "wall", :ball, "wacky"])
 
-testing = :datest
-puts testing.to_s
-puts testing.to_sym

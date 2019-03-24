@@ -11,6 +11,7 @@ def begins_with_r(array)
     end
     binding.pry
   }
+  puts yea_o_nea
   yea_o_nea
 end
 

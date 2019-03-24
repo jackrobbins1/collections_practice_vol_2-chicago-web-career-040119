@@ -63,3 +63,5 @@ end
 def count_elements(array)
   new_array = []
 end
+
+count_elements([{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}])

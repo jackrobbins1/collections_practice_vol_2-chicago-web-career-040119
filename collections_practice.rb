@@ -57,7 +57,6 @@ def remove_non_strings(array)
       next
     end
   }
-  puts new_array
   new_array
 end
 

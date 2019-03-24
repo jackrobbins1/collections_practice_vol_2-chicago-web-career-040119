@@ -87,6 +87,6 @@ def count_elements(array)
   new_array
 end
 
-def merge_data
+def merge_data(hsh_one, hsh_two)
 
 end

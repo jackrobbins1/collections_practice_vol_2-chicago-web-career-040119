@@ -48,4 +48,6 @@ def first_wa(array)
   }
 end
 
-first_wa(["candy", :pepper, "wall", :ball, "wacky"])
+def remove_non_strings(array)
+  new_array
+end

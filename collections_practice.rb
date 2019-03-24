@@ -31,4 +31,4 @@ def contain_a(array)
   new_array
 end
 
-contain(["earth", "fire", "wind", "water", "heart"])
+contain_a(["earth", "fire", "wind", "water", "heart"])

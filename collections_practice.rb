@@ -35,6 +35,7 @@ def first_wa(array)
   the_first = ""
   array.each { |el|
     zplit = el.split("")
+    two_letters = zplit[0] + zplit[1]
     zplit.each {|letter|
       if letter == "a"
         new_array << el

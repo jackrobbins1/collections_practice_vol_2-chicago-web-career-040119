@@ -31,8 +31,6 @@ def contain_a(array)
   new_array
 end
 
-contain_a(["earth", "fire", "wind", "water", "heart"])
-
 def first_wa(array)
   the_first = ""
   array.each { |el|

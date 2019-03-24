@@ -62,6 +62,7 @@ end
 
 def count_elements(array)
   new_array = []
+  binding.pry
   array.flatten
   # array.each {|el|
   #   binding.pry

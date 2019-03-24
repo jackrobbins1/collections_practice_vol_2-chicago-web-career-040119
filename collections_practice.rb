@@ -50,7 +50,13 @@ end
 
 def remove_non_strings(array)
   new_array = []
-  binding.pry
+  array.each {|el|
+    if el == el.to_s
+      new_array << el
+    else
+      next
+    end
+  }
 end
 
 remove_non_strings([1, 3])

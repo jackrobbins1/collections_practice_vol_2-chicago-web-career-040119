@@ -83,7 +83,7 @@ def count_elements(array)
       }
     end
   }
-  binding.pry
+  #binding.pry
   new_array
 end
 

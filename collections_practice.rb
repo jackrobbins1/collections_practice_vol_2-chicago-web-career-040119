@@ -69,6 +69,7 @@ def count_elements(array)
       new_array.each {|nel|
         if nel.keys == el.keys
           nel[:count] += 1
+        elsif
         end
       }
     end

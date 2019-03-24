@@ -27,6 +27,7 @@ def contain_a(array)
       end
     }
   }
+  new_array
 end
 
 contain(["earth", "fire", "wind", "water", "heart"])

@@ -62,9 +62,10 @@ end
 
 def count_elements(array)
   new_array = []
-  array.each {|el|
-    binding.pry
-  }
+  array.flatten
+  # array.each {|el|
+  #   binding.pry
+  # }
 end
 
 count_elements([{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}])

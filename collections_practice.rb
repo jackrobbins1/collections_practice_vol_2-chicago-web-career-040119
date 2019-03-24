@@ -63,14 +63,14 @@ end
 def count_elements(array)
   new_array = []
   array.each {|el|
-    binding.pry
+    #binding.pry
     if new_array == []
       new_array << {el.keys[0] => el.values[0], :count => 1}
       #binding.pry
       #next
     else
       new_array.each {|nel|
-        binding.pry
+        #binding.pry
         if nel.values[0] == el.values[0]
           nel[:count] += 1
           #next

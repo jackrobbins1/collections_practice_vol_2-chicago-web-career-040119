@@ -34,7 +34,7 @@ end
 contain_a(["earth", "fire", "wind", "water", "heart"])
 
 def first_wa(array)
-  new_array = []
+  the_first = ""
   array.each { |el|
     zplit = el.split("")
     zplit.each {|letter|

@@ -67,6 +67,7 @@ def count_elements(array)
       new_array << {el.keys => el.values, :count => 1}
       binding.pry
     else
+      binding.pry
       new_array.each {|nel|
         if nel.keys == el.keys
           nel[:count] += 1

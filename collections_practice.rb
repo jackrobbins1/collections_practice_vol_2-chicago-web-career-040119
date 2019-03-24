@@ -48,3 +48,4 @@ end
 
 testing = :datest
 puts testing.to_s
+puts testing.to_sym

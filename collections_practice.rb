@@ -49,4 +49,3 @@ def first_wa(array)
 end
 
 first_wa(["candy", :pepper, "wall", :ball, "wacky"])
-

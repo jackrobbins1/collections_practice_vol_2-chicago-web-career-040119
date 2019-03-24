@@ -74,6 +74,7 @@ def count_elements(array)
           next
         else
           new_array << {el.keys => el.values, :count => 1}
+          next
         end
       }
     end

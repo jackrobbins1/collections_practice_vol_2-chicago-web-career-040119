@@ -32,7 +32,6 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  the_first = ""
   array.each { |el|
     zplit = el.split("")
     two_letters = zplit[0] + zplit[1]
@@ -42,8 +41,6 @@ def first_wa(array)
       next
     end
   }
-  puts new_array
-  new_array
 end
 
 first_wa(["candy", :pepper, "wall", :ball, "wacky"])

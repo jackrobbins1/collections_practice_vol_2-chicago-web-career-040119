@@ -63,6 +63,7 @@ end
 def count_elements(array)
   new_array = []
   array.each {|el|
+    binding.pry
     if new_array == []
       new_array << {el.keys[0] => el.values[0], :count => 1}
       #binding.pry

@@ -66,7 +66,7 @@ def count_elements(array)
     if new_array == []
       new_array << {el.keys => el.values}
     else
-      new_array.each {|el|}
+      new_array.each {|nel|}
     end
     binding.pry
   }

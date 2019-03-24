@@ -60,4 +60,6 @@ def remove_non_strings(array)
   new_array
 end
 
-remove_non_strings(["blake", 1, :hello])
+def count_elements(array)
+  new_array = []
+end

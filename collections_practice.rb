@@ -36,6 +36,7 @@ def first_wa(array)
     zplit = el.split("")
     two_letters = zplit[0] + zplit[1]
     if two_letters == "wa"
+      puts el
       return el
     else
       next

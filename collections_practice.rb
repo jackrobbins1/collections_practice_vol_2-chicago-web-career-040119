@@ -118,7 +118,6 @@ dataz = [
 datazz = {"blake"=>{:awesomeness=>10, :height=>"74", :last_name=>"johnson"}, "ashley"=>{:awesomeness=>9, :height=>60, :last_name=>"dubs"}}
 
 def merge_data(hsh_one, hsh_two)
-  binding.pry
   merge1 = hsh_one[0].merge(hsh_two["blake"])
   addback = merge1.delete(:motto)
   merge1[:motto] = addback
@@ -126,12 +125,9 @@ def merge_data(hsh_one, hsh_two)
   addback2 = merge2.delete(:motto)
   merge2[:motto] = addback2
   all_merged = [merge1, merge2]
-  #puts all_merged
-  puts "my data set"
-  puts hsh_one
-  puts hsh_two
+  puts all_merged
   #binding.pry
-  #return all_merged
+  return all_merged
 end
 
 merge_data(keyz, datazz)

@@ -114,7 +114,7 @@ dataz = [
 ]
 
 def merge_data(hsh_one, hsh_two)
-  #binding.pry
+  binding.pry
   merge1 = hsh_one[0].merge(hsh_two["blake"])
   addback = merge1.delete(:motto)
   merge1[:motto] = addback

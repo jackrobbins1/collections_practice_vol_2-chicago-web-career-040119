@@ -194,4 +194,4 @@ def organize_schools(hsh)
   locations
 end
 
-organize_schools(schoolz)
+#organize_schools(schoolz)

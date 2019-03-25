@@ -123,7 +123,9 @@ def merge_data(hsh_one, hsh_two)
   addback2 = merge2.delete(:motto)
   merge2[:motto] = addback2
   all_merged = [merge1, merge2]
-  puts all_merged
+  #puts all_merged
+  puts hsh_one
+  puts hsh_two
   #binding.pry
   return all_merged
 end

@@ -121,6 +121,8 @@ def merge_data(hsh_one, hsh_two)
   addback = merge1.delete(:motto)
   merge1[:motto] = addback
   merge2 = hsh_one[1].merge(hsh_two[1]["ashley"])
+  addback2 = merge2.delete(:motto)
+  merge2[:motto] = addback2
 end
 
 merge_data(keyz, dataz)

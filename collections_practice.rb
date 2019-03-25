@@ -99,22 +99,14 @@ keyz = {  [
           ]
         }
 
-
-dataz = {[
-                   {
-                     "blake" => {
-                        :awesomeness => 10,
-                             :height => "74",
-                          :last_name => "johnson"
-                    },
-                    "ashley" => {
-                        :awesomeness => 9,
-                             :height => 60,
-                          :last_name => "dubs"
-                    }
-                }
-            ]
-          }
+data = {[
+  {
+    
+  },
+  {
+    
+  }
+  ]}
 
 def merge_data(hsh_one, hsh_two)
   merged = []

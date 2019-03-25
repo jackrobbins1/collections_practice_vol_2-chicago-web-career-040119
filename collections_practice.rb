@@ -187,6 +187,9 @@ def organize_schools(hsh)
   }
   hsh.each {|keyz, valz|
     binding.pry
+    if valz[:location]
+      
+    end
   }
 end
 

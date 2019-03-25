@@ -119,7 +119,7 @@ def merge_data(hsh_one, hsh_two)
   merged = []
   i = 0
   hsh_one.each {|el|
-    merged[]
+    merged[i] = {}
     el.each {|keys|
       binding.pry
     }

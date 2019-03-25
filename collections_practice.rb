@@ -187,8 +187,8 @@ def organize_schools(hsh)
   }
   hsh.each {|keyz, valz|
     binding.pry
-    loc = valz[:location]
-    if valz[:location] ==
+    case valz[:location]
+    when condition
 
     end
   }

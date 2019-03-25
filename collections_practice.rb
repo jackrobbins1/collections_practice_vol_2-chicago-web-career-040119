@@ -118,5 +118,5 @@ dataz = {
 }
 
 def merge_data(hsh_one, hsh_two)
-
+  merged = []
 end

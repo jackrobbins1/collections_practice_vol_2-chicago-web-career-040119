@@ -119,7 +119,7 @@ datazz = {"blake"=>{:awesomeness=>10, :height=>"74", :last_name=>"johnson"}, "as
 
 
 def merge_data(hsh_one, hsh_two)
-  binding.pry
+  #binding.pry
   merge1 = hsh_one[0].merge(hsh_two["blake"])
   addback = merge1.delete(:motto)
   merge1[:motto] = addback
@@ -127,7 +127,7 @@ def merge_data(hsh_one, hsh_two)
   addback2 = merge2.delete(:motto)
   merge2[:motto] = addback2
   all_merged = [merge1, merge2]
-  binding.pry
+  #binding.pry
   return all_merged
 end
 

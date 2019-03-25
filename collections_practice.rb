@@ -132,8 +132,12 @@ def merge_data(hsh_one, hsh_two)
 end
 
 #merge_data(keyz, datazz)
-merge_data(skeys, sdata)
+#merge_data(skeys, sdata)
+
+
 
 def find_cool()
 
 end
+
+find_cool()

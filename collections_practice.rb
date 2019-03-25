@@ -147,8 +147,7 @@ sdata = {
   ]
 }
 
-smerged_data = {
-  [
+smerged_data = [
       {
            :first_name => "blake",
           :awesomeness => 10,
@@ -166,7 +165,6 @@ smerged_data = {
 
       }
   ]
-}
 
 def merge_data(hsh_one, hsh_two)
   merge1 = hsh_one[0].merge(hsh_two["blake"])

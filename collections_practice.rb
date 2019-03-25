@@ -119,4 +119,8 @@ dataz = {
 
 def merge_data(hsh_one, hsh_two)
   merged = []
+
+  hsh_one.each {|el|
+    binding.pry
+  }
 end

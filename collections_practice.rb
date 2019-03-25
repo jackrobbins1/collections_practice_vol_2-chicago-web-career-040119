@@ -87,17 +87,16 @@ def count_elements(array)
   new_array
 end
 
-keyz = {  [
-              {
-                  :first_name => "blake",
-                       :motto => "Have a koala-ty day!"
-              },
-              {
-                  :first_name => "ashley",
-                       :motto => "I dub thee, 'Lady Brett Ashley'."
-              }
-          ]
-        }
+keys = {[
+  {
+    :first_name => "blake",
+         :motto => "Have a koala-ty day!"
+  },
+  {
+    :first_name => "ashley",
+         :motto => "I dub thee, 'Lady Brett Ashley'."
+  }
+  ]}
 
 data = {[
   {

@@ -120,8 +120,7 @@ def merge_data(hsh_one, hsh_two)
   merge1 = hsh_one[0].merge(hsh_two[0]["blake"])
   addback = merge1.delete(:motto)
   merge1[:motto] = addback
-  binding.pry
-  puts merge1
+  merge2 = hsh_one[1].merge(hsh_two[1]["blake"])
 end
 
 merge_data(keyz, dataz)

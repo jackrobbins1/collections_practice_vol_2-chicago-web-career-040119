@@ -124,7 +124,7 @@ def merge_data(hsh_one, hsh_two)
   merge2 = hsh_one[1].merge(hsh_two["ashley"])
   addback2 = merge2.delete(:motto)
   merge2[:motto] = addback2
-  all_merged = {[merge1, merge2]}
+  all_merged = [merge1, merge2]
   binding.pry
   return all_merged
 end

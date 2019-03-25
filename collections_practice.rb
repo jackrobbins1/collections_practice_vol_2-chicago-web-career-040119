@@ -185,7 +185,7 @@ def organize_schools(hsh)
     "SF" => [],
     "Chicago" => []
   }
-  puts hsh
+  hsh.each {|keyz|}
 end
 
 organize_schools(schoolz)

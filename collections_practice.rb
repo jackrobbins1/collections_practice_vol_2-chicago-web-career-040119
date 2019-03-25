@@ -146,7 +146,9 @@ my_cool = [
           ]
 
 def find_cool(arr)
-  puts hsh
+  arr.each {|el|
+    binding.pry
+  }
 end
 
 find_cool(my_cool)

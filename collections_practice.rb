@@ -186,7 +186,6 @@ def organize_schools(hsh)
     "Chicago" => []
   }
   hsh.each {|keyz, valz|
-    binding.pry
     case valz[:location]
 
     when "NYC"

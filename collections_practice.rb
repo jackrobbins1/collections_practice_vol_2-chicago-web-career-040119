@@ -129,4 +129,4 @@ def merge_data(hsh_one, hsh_two)
   return all_merged
 end
 
-#merge_data(keyz, dataz)
+merge_data(keyz, dataz)

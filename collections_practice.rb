@@ -87,7 +87,7 @@ def count_elements(array)
   new_array
 end
 
-keyz = {[
+keyz = [
   {
     :first_name => "blake",
          :motto => "Have a koala-ty day!"
@@ -96,9 +96,9 @@ keyz = {[
     :first_name => "ashley",
          :motto => "I dub thee, 'Lady Brett Ashley'."
   }
-  ]}
+  ]
 
-dataz = {[
+dataz = [
   {
     "blake" => {
        :awesomeness => 10,
@@ -111,7 +111,7 @@ dataz = {[
              :height => 60,
           :last_name => "dubs"
   }
-  ]}
+  ]
 
 def merge_data(hsh_one, hsh_two)
   merged = []

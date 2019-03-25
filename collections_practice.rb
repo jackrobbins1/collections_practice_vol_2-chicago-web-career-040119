@@ -158,4 +158,8 @@ def find_cool(arr)
   }
 end
 
-find_cool(my_cool)
+
+
+def organize_schools(hsh)
+  
+end

@@ -149,7 +149,9 @@ def find_cool(arr)
   arr.each {|el|
     #binding.pry
     if el[:temperature] == "cool"
-      return el
+      output = []
+      output << el
+      return output
     else
       next
     end

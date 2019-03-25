@@ -188,7 +188,9 @@ def organize_schools(hsh)
   hsh.each {|keyz, valz|
     binding.pry
     case valz[:location]
-    when condition
+      
+    when "NYC"
+      locations["NYC"] << keyz
 
     end
   }

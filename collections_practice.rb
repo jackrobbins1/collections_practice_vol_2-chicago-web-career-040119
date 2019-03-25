@@ -135,5 +135,5 @@ end
 merge_data(skeys, sdata)
 
 def find_cool()
-  
+
 end

@@ -134,16 +134,16 @@ end
 #merge_data(keyz, datazz)
 #merge_data(skeys, sdata)
 
-my_cool =     [
-            {
-                   :name => "ashley",
-            :temperature => "sort of cool"
-        },
-            {
-                   :name => "blake",
-            :temperature => "cool"
-        }
-    ]
+my_cool = [
+                {
+                       :name => "ashley",
+                :temperature => "sort of cool"
+            },
+                {
+                       :name => "blake",
+                :temperature => "cool"
+            }
+          ]
 
 def find_cool()
 

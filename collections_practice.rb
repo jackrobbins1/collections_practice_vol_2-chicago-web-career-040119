@@ -145,7 +145,7 @@ my_cool = [
             }
           ]
 
-def find_cool(hsh)
+def find_cool(arr)
   puts hsh
 end
 

@@ -115,6 +115,8 @@ dataz = [
   }
   ]
 
+datazz = {"blake"=>{:awesomeness=>10, :height=>"74", :last_name=>"johnson"}, "ashley"=>{:awesomeness=>9, :height=>60, :last_name=>"dubs"}}
+
 def merge_data(hsh_one, hsh_two)
   merge1 = hsh_one[0].merge(hsh_two[0]["blake"])
   addback = merge1.delete(:motto)
@@ -131,4 +133,4 @@ def merge_data(hsh_one, hsh_two)
   #return all_merged
 end
 
-merge_data(keyz, dataz)
+merge_data(keyz, datazz)

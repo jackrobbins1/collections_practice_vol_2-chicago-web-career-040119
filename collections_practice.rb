@@ -127,7 +127,7 @@ def merge_data(hsh_one, hsh_two)
   puts hsh_one
   puts hsh_two
   #binding.pry
-  return all_merged
+  #return all_merged
 end
 
 merge_data(keyz, dataz)

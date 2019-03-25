@@ -196,6 +196,7 @@ def organize_schools(hsh)
         locations["Chicago"] << keyz
     end
   }
+  locations
 end
 
 organize_schools(schoolz)

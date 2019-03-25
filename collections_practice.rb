@@ -124,3 +124,5 @@ def merge_data(hsh_one, hsh_two)
     binding.pry
   }
 end
+
+merge_data(keyz, dataz)

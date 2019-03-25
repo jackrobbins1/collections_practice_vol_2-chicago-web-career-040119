@@ -155,6 +155,7 @@ describe 'collections practice vol 2.' do
     it 'combines two nested data structures into one' do
       puts keys
       puts data
+      puts merged_data
       expect(merge_data(keys, data)).to eq(merged_data)
     end
 

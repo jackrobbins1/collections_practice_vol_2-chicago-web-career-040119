@@ -125,8 +125,7 @@ skeys = {[
       {
           :first_name => "ashley",
                :motto => "I dub thee, 'Lady Brett Ashley'."
-      }]
-}
+      }]}
 
 sdata = [
          {

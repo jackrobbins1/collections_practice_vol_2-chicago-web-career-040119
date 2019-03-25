@@ -188,12 +188,12 @@ def organize_schools(hsh)
   hsh.each {|keyz, valz|
     case valz[:location]
 
-    when "NYC"
-      locations["NYC"] << keyz
-    when "SF"
-      locations["SF"] << keyz
-    when "Chicago"
-      locations["Chicago"] << keyz
+      when "NYC"
+        locations["NYC"] << keyz
+      when "SF"
+        locations["SF"] << keyz
+      when "Chicago"
+        locations["Chicago"] << keyz
     end
   }
 end

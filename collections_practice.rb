@@ -101,7 +101,10 @@ keyz = {  [
 
 data = {[
   {
-
+    "blake" => {
+       :awesomeness => 10,
+            :height => "74",
+         :last_name => "johnson"
   },
   {
     

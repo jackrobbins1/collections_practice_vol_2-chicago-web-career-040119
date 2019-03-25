@@ -119,10 +119,10 @@ datazz = {"blake"=>{:awesomeness=>10, :height=>"74", :last_name=>"johnson"}, "as
 
 def merge_data(hsh_one, hsh_two)
   binding.pry
-  merge1 = hsh_one[0].merge(hsh_two[0]["blake"])
+  merge1 = hsh_one[0].merge(hsh_two["blake"])
   addback = merge1.delete(:motto)
   merge1[:motto] = addback
-  merge2 = hsh_one[1].merge(hsh_two[1]["ashley"])
+  merge2 = hsh_one[1].merge(hsh_two["ashley"])
   addback2 = merge2.delete(:motto)
   merge2[:motto] = addback2
   all_merged = [merge1, merge2]

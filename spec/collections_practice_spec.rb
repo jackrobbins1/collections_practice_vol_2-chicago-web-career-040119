@@ -156,6 +156,7 @@ describe 'collections practice vol 2.' do
       #puts keys
       #puts data
       puts merged_data
+      puts "now output of your method"
       expect(merge_data(keys, data)).to eq(merged_data)
     end
 

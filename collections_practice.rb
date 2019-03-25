@@ -124,6 +124,7 @@ def merge_data(hsh_one, hsh_two)
   merge2[:motto] = addback2
   all_merged = [merge1, merge2]
   #puts all_merged
+  puts "my data set"
   puts hsh_one
   puts hsh_two
   #binding.pry

@@ -117,7 +117,7 @@ dataz = [
 
 datazz = {"blake"=>{:awesomeness=>10, :height=>"74", :last_name=>"johnson"}, "ashley"=>{:awesomeness=>9, :height=>60, :last_name=>"dubs"}}
 
-skeys = {[
+skeys = [
       {
           :first_name => "blake",
                :motto => "Have a koala-ty day!"
@@ -125,7 +125,7 @@ skeys = {[
       {
           :first_name => "ashley",
                :motto => "I dub thee, 'Lady Brett Ashley'."
-      }]}
+      }]
 
 sdata = [
          {

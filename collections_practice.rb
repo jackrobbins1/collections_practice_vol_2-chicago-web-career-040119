@@ -130,8 +130,7 @@ skeys = {
   ]
 }
 
-sdata = {
-  [
+sdata = [
          {
            "blake" => {
               :awesomeness => 10,
@@ -145,7 +144,6 @@ sdata = {
           }
       }
   ]
-}
 
 smerged_data = [
       {

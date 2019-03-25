@@ -149,4 +149,4 @@ def find_cool()
 
 end
 
-find_cool()
+find_cool(my_cool)

@@ -163,7 +163,6 @@ describe 'collections practice vol 2.' do
     # Question 7
 
     it 'find all cool hashes' do
-      puts cool
       expect(find_cool(cool)).to eq([{:name => "blake",:temperature => "cool"}])
     end
 

@@ -186,7 +186,7 @@ def organize_schools(hsh)
     "Chicago" => []
   }
   hsh.each {|keyz|
-    pry
+    binding.pry
   }
 end
 

@@ -117,7 +117,8 @@ dataz = [
 
 def merge_data(hsh_one, hsh_two)
   binding.pry
-  hsh_one[0].merge(hsh_two[0]["blake"])
+  merge1 = hsh_one[0].merge(hsh_two[0]["blake"])
+  puts merge1
 end
 
 merge_data(keyz, dataz)

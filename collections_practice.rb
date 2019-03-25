@@ -180,7 +180,7 @@ schoolz = {
 }
 
 def organize_schools(hsh)
-
+  puts hsh
 end
 
 organize_schools(schoolz)

@@ -146,7 +146,7 @@ my_cool = [
           ]
 
 def find_cool(hsh)
-  puts my_cool
+  puts hsh
 end
 
 find_cool(my_cool)

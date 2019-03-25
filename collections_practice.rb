@@ -180,6 +180,11 @@ schoolz = {
 }
 
 def organize_schools(hsh)
+  locations = {
+    "NYC" => [],
+    "SF" => [],
+    "Chicago" => []
+  }
   puts hsh
 end
 

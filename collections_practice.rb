@@ -111,7 +111,7 @@ dataz = [
               :last_name => "dubs"
         }
     }
-] 
+]
 
 def merge_data(hsh_one, hsh_two)
   #binding.pry

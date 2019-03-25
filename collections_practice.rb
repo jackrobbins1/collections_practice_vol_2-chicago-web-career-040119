@@ -186,6 +186,7 @@ def organize_schools(hsh)
     "Chicago" => []
   }
   hsh.each {|keyz, valz|
+    
     case valz[:location]
       when "NYC"
         locations["NYC"] << keyz

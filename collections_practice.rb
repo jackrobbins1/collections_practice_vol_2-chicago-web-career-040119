@@ -145,7 +145,7 @@ my_cool = [
             }
           ]
 
-def find_cool()
+def find_cool(hsh)
 
 end
 

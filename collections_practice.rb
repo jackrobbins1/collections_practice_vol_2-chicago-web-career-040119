@@ -194,6 +194,7 @@ def organize_schools(hsh)
     when "SF"
       locations["SF"] << keyz
     when "Chicago"
+      locations["Chicago"] << keyz
     end
   }
 end
